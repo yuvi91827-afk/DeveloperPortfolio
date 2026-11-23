@@ -1,0 +1,24 @@
+==========================================
+       SYSTEM INFORMATION REPORT
+==========================================
+Name: Yuvraj Singh
+Roll Number: 2601730069
+Date: Mon Nov 23 17:00:35 UTC 2026
+
+---------- CPU INFORMATION ----------
+CPU Model: Intel(R) Core(TM) 5 210H
+Physical CPU Cores: 6
+
+---------- MEMORY INFORMATION ----------
+Total Memory: 7.6Gi
+Used Memory: 549Mi
+
+---------- TOP 3 PROCESSES BY CPU ----------
+    PID COMMAND         %CPU
+      1 systemd          0.1
+   1018 bash             0.0
+     90 systemd-udevd    0.0
+
+==========================================
+Report generated successfully.
+==========================================
