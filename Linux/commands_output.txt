@@ -1,0 +1,59 @@
+========== LS -LA HOME ==========
+total 80
+drwxr-x--- 11 yuvi7 yuvi7  4096 Nov 23 16:47 .
+drwxr-xr-x  3 root  root   4096 Oct 19 09:46 ..
+-rw-------  1 yuvi7 yuvi7 13917 Nov 22 17:26 .bash_history
+-rw-r--r--  1 yuvi7 yuvi7   220 Oct 19 09:46 .bash_logout
+-rw-r--r--  1 yuvi7 yuvi7  3771 Oct 19 09:46 .bashrc
+drwxr-x---  4 yuvi7 yuvi7  4096 Oct 19 09:53 .cache
+drwxr-x---  4 yuvi7 yuvi7  4096 Oct 22 05:06 .config
+-rw-r--r--  1 yuvi7 yuvi7    86 Nov 21 03:42 .gitconfig
+drwxr-xr-x  2 yuvi7 yuvi7  4096 Oct 19 09:53 .landscape
+-rw-------  1 yuvi7 yuvi7    20 Nov 22 17:02 .lesshst
+drwx------  3 yuvi7 yuvi7  4096 Oct 25 03:45 .local
+-rw-r--r--  1 yuvi7 yuvi7     0 Nov 23 16:43 .motd_shown
+-rw-r--r--  1 yuvi7 yuvi7   807 Oct 19 09:46 .profile
+drwxr-xr-x  8 yuvi7 yuvi7  4096 Nov 23 16:48 DeveloperPortfolio
+drwxr-xr-x  2 yuvi7 yuvi7  4096 Oct 25 04:23 cse103_backups
+drwxr-xr-x  4 yuvi7 yuvi7  4096 Oct 26 09:35 cse103_lab
+drwxr-xr-x  3 yuvi7 yuvi7  4096 Nov 22 07:22 developer-portfolio
+drwxr-xr-x  7 yuvi7 yuvi7  4096 Oct 25 04:26 organizer_test
+
+========== PS AUX HEAD ==========
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.2  0.1  24236 15428 ?        Ss   16:43   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  16:43   0:00 /init
+root           3  0.0  0.0   3680  2216 hvc0     S+   16:43   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  16:43   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          47  0.0  0.3  58868 24048 ?        S<s  16:43   0:00 /usr/lib/systemd/systemd-journald
+systemd+      82  0.0  0.1  22432 14428 ?        Ss   16:43   0:00 /usr/lib/systemd/systemd-resolved
+root          90  0.0  0.1  34832 12032 ?        Ss   16:43   0:00 /usr/lib/systemd/systemd-udevd
+root         133  0.0  0.0   2888  2012 ?        Ss   16:43   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         139  0.0  0.0   4472  3112 ?        Ss   16:43   0:00 /usr/sbin/cron -f -P
+
+========== DF -H ==========
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         476G  137G  340G  29% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.8G   36K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  3.4M  3.8G   1% /init
+none            3.8G  540K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   80K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   80K  3.8G   1% /mnt/wslg/doc
+C:\             476G  137G  340G  29% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.8G     0  3.8G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           776M   12K  776M   1% /run/user/1000
+
+========== FREE -H ==========
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       511Mi       6.9Gi       4.1Mi       317Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
